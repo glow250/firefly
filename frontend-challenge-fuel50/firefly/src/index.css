@@ -5,9 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d7e7e6;
-  /* background-image: url("./assets/ff_logo_large.png");
-  background-size: 400px; */
+  background-color: #d7e6e6;
 }
 
 code {

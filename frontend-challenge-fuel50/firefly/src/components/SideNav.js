@@ -6,11 +6,11 @@ import styled from "styled-components";
 const Styles = styled.div`
   #bottom {
     border-top: 1px solid #416673;
-    position relative;
-    margin-top: 250%;
-    top: 1;
+    position: absolute;
     left: 0;
-
+    bottom: 0px;
+    width: 200px;
+    height: 7%;
   }
   #sidebar-wrapper {
     z-index: 1;
@@ -56,7 +56,17 @@ const Styles = styled.div`
     color: white;
   }
   .border-bottom {
-    border-color: #416673!important;
+    border-color: #416673 !important;
+  }
+  .copyright {
+    color: #416673;
+    text-align: center;
+    font-size: 10px;
+    text-indent: 0 !important;
+  }
+
+  .material-icons.md10 {
+    font-size: 10px;
   }
 `;
 
@@ -95,6 +105,9 @@ const SideNav = () => (
         </li>
         <li>
           <a href="#">Logout</a>
+        </li>
+        <li className="copyright">
+          <i class="material-icons md10">copyright</i>FireFly 2019
         </li>
       </ul>
     </div>

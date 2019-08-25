@@ -4,6 +4,7 @@ import Jumbotron from "./components/Jumbotron";
 import Main from "./components/Main";
 import Layout from "./components/Layout";
 import { createGlobalStyle } from "styled-components";
+import styled from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
   body {
@@ -11,6 +12,10 @@ const GlobalStyles = createGlobalStyle`
     @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
     font-family: 'Open Sans', 'Material Icons';
   }
+`;
+
+const Background = styled.div`
+  background-image: url("./assets/ff_logo_bg.png");
 `;
 
 class App extends Component {

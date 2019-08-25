@@ -8,7 +8,7 @@ const Styles = styled.div`
   .main {
     position: absolute;
     left: 200px;
-    height: 75%;
+    height: 76%;
     right: 0;
     bottom: 0;
     padding: 3px 8px;

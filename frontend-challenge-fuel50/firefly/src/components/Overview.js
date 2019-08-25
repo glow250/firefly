@@ -9,6 +9,7 @@ const Styles = styled.div`
   }
   .overview {
     margin-bottom: 3%;
+    height: 35%;
   }
   h1 {
     color: #4b4b4b;
@@ -22,7 +23,7 @@ class Overview extends Component {
     return (
       <React.Fragment>
         <Styles>
-          <Container className="overview">
+          <Container fluid className="overview">
             <h1>Overview</h1>
             <Row>
               <Col>
@@ -37,8 +38,16 @@ class Overview extends Component {
             </Row>
             <Row>
               <Col>Cat videos watched</Col>
-              <Col>Slices of pizza in the fridge</Col>
-              <Col>Favourite songs beginning with the letter 'A'</Col>
+              <Col>
+                Slices of pizza
+                <br />
+                in the fridge
+              </Col>
+              <Col>
+                Favourite songs beginning
+                <br />
+                with the letter 'A'
+              </Col>
             </Row>
           </Container>
         </Styles>
